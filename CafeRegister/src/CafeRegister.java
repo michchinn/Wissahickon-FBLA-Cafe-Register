@@ -15,8 +15,6 @@ import javax.swing.BoxLayout;
 import javax.swing.table.*;
 import java.text.*;
  
-
- 
 public class CafeRegister extends JFrame
 {
     private static JFrame mainFrame;
@@ -225,11 +223,11 @@ public class CafeRegister extends JFrame
         coffeeMuffin.thisButton.addActionListener(listener);
         coffeeMuffin.thisButton.setPreferredSize(button);
          
-        button cafeLatte = new button("Café Latte: \t\t $1.50");
+        button cafeLatte = new button("Cafe Latte: \t\t $1.50");
         cafeLatte.thisButton.addActionListener(listener);
         cafeLatte.thisButton.setPreferredSize(button);
          
-        button cafeMocha = new button("Café Mocha: \t\t $1.50");
+        button cafeMocha = new button("Cafe Mocha: \t\t $1.50");
         cafeMocha.thisButton.addActionListener(listener);
         cafeMocha.thisButton.setPreferredSize(button);
          
