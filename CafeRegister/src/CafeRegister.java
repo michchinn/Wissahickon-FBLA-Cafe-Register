@@ -427,7 +427,7 @@ public class CafeRegister extends JFrame
             String price;
             double total = 0;
             //String path =  new String ("C:\\Users\\15pkunapuli\\Desktop\\PLU Reports\\"); // WINDOWS
-            String path = new String ("/Users/mayankmmmx/Desktop/"); // MAC
+            String path = System.getProperty("user.home") + "/Desktop/"; // MAC
                 
             DateFormat dateFormat = new SimpleDateFormat("MMM-dd-yy");
             DateFormat dateFormat2 = new SimpleDateFormat("hh");
